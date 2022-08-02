@@ -10,7 +10,7 @@ import { NavLink } from "react-router-dom";
 
 const Home = () => {
   const [letterClass, setLetterClass] = useState("text-animate");
-  const nameArray = ["S", "c", "o", "t", "t", " "];
+  const nameArray = ["H","i,"," ", "I'", "m","","S", "c", "o", "t", "t", " "];
 
   useEffect(() => {
     setTimeout(() => {
@@ -19,15 +19,11 @@ const Home = () => {
   }, []);
 
   return (
-    <section className="hero-section">
-      <div className=" d-flex-row pt-5">
+    <section className="hero-section ">
+      <div className=" d-flex flex-row flex-wrap justify-content-center align-items-center vh-100">
         {/* Main Hero content */}
-        <div className="hero-content d-flex flex-column align-items-center col-sm-12 col-lg-12">
+        <div className="hero-content d-flex flex-column align-items-center  col-sm-12 col-md-6 ">
           <h1>
-            <span className={letterClass}>H</span>
-            <span className={`${letterClass} _12`}>i,&nbsp; </span>
-            <span className={`${letterClass} _13`}>I</span>
-            <span className={`${letterClass} _14`}>'m</span>&nbsp;
             <AnimatedLetters
               letterClass={letterClass}
               strArray={nameArray}
@@ -57,12 +53,15 @@ const Home = () => {
             </span>
           </div>
         </div>
+        <div className='img-div  col-sm-12 col-md-3 '>
         <img
           className="col-sm-12 col-md-2"
           src={spaceManSwingImage}
           alt="man is spacesuit"
         />
+        </div>
       </div>
+
       {/* divs for the animated stars/particles */}
       <div id="stars"></div>
       <div id="stars2"></div>
