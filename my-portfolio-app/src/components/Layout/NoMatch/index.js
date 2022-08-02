@@ -2,8 +2,8 @@ import React from 'react';
 
 const NoMatch = () => {
   return (
-    <div>
-      Oops, we couldn't find that page.
+    <div className='wrongPage p-5 m-5'>
+      Oops, that page no longer exists.
     </div>
   );
 };

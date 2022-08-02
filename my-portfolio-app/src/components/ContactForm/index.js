@@ -73,7 +73,7 @@ if(name && email && message){
                 <button type="submit" className="mt-5">Submit</button>
             </form>
           </div>
-          <div className='imageDiv col-sm-12 col-md-5'>
+          <div className='img-div col-sm-12 col-md-6'>
             <img src={spaceMan} alt='floating guy in space'/>
 
           </div>
