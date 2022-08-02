@@ -22,7 +22,7 @@ const Home = () => {
     <section className="hero-section ">
       <div className=" d-flex flex-row flex-wrap justify-content-center align-items-center vh-100">
         {/* Main Hero content */}
-        <div className="hero-content d-flex flex-column align-items-center  col-sm-12 col-md-6 ">
+        <div className="hero-content d-flex flex-column align-items-center  col-sm-12 col-md-4 ">
           <h1>
             <AnimatedLetters
               letterClass={letterClass}
@@ -61,11 +61,6 @@ const Home = () => {
         />
         </div>
       </div>
-
-      {/* divs for the animated stars/particles */}
-      <div id="stars"></div>
-      <div id="stars2"></div>
-      <div id="stars3"></div>
     </section>
   );
 };

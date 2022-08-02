@@ -1,7 +1,7 @@
 .hero-content{
     font-family: "Coolvetica";
     color: #00a6fb;
-    text-shadow: 2px 2px 10px #003554;
+   
 
     
    h1{
@@ -25,18 +25,13 @@
     .contact-btns{
         
         a{
-
             padding-left: 10px;
-        
-            
-         
             svg{
                 color: #fff;
             }
             &:hover svg{
                 color:#ffd700;
             }
-           
         }
         
     
@@ -48,6 +43,11 @@
             color: #fff;
             background-color: rgba(206, 28, 28, 0);
             animation: fadeIn 1s 5s backwards;
+            &:hover{
+                background-color: #b9a636;
+                color: black;
+
+            }
         }
     }
     
@@ -75,6 +75,7 @@
         width: 80%;
         height: 100%;
         opacity: .8;
+       
         
     }
     

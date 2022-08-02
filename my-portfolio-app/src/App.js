@@ -4,6 +4,7 @@ import './App.scss';
 import Home from './components/Home';
 import NoMatch from './components/Layout/NoMatch';
 import Layout from './components/Layout';
+import Contact from './components/ContactForm';
 
 
 function App() {
@@ -12,9 +13,14 @@ function App() {
               <Routes>
                 <Route path="/" element={<Layout/>}>
                   <Route  index element={<Home />} />
+                  <Route path='/contact' element={<Contact/>}/>
                   <Route path="*" element={<NoMatch />} />
                 </Route>
               </Routes>
+                {/* divs for the animated stars/particles */}
+                <div id="stars"></div>
+                <div id="stars2"></div>
+                <div id="stars3"></div>
             </>
   );
 }
