@@ -21,24 +21,54 @@
         letter-spacing: 3px;
         animation: fadeIn 1s 4s backwards;
     }
-    .contact-me-btn{
-        border: 2px solid #8d8d8d;
-        width: 200px;
-        height: 60px;
-        font-size: 30px;
-        color: #fff;
-        background-color: rgba(206, 28, 28, 0);
-        animation: fadeIn 1s 5s backwards;
+
+    .contact-btns{
+        
+        a{
+
+            padding-left: 10px;
+        
+            
+         
+            svg{
+                color: #fff;
+            }
+            &:hover svg{
+                color:#ffd700;
+            }
+           
+        }
+        
+    
+        .contact-me-btn {
+            border: 2px solid #8d8d8d;
+            width: 200px;
+            height: 60px;
+            font-size: 30px;
+            color: #fff;
+            background-color: rgba(206, 28, 28, 0);
+            animation: fadeIn 1s 5s backwards;
+        }
     }
     
 }
 
+.contact-span{
+   
+    padding-top: 2px;
+    padding-bottom:  8px;
+    margin-left: 5px;
+    padding-right: 50px;
+    font-size: 40px;
+    border: 2px solid #8d8d8d;
+    animation: fadeIn 1s 5s backwards;
+}
 
 
 
 img{
-    width: 350px;
-    height: 350px;
+    width: 300px;
+    height:350px;
     opacity: 1;
     animation: fadeIn 1s 6s backwards;
     
