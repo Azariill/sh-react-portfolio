@@ -6,7 +6,9 @@ const NavBar = () =>{
 
     return(
         <nav className="navbar navbar-expand-lg">
-            <a className="navbar-brand" href="/"><h1 className='m-1 px-3'>Scott Heier</h1></a>
+        <NavLink exact="true" activeclassname="active" style={{textDecoration: 'none'}} to="/">
+            <span className="navbar-brand"><h1 className='m-1 px-3'>Scott Heier</h1></span>
+        </NavLink>
             <button className="navbar-toggler bg-light" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
             </button>

@@ -3,6 +3,7 @@ import { useRef } from 'react'
 import emailjs from '@emailjs/browser'
 import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
+import spaceMan from '../../assets/images/space.png';
 
 
 const Contact = () => {
@@ -45,8 +46,9 @@ if(name && email && message){
 
   return (
     <>
-      <div className="container contact-page">
-        <div className="text-zone">
+      <div className="container d-flex flex-row flex-wrap contact-page">
+        
+          <div className="contact-form  d-flex flex-column align-items-center m-3 col-sm-12 col-md-5 ">
           <h1>
             <AnimatedLetters
               letterClass={letterClass}
@@ -54,31 +56,29 @@ if(name && email && message){
               idx={15}
             />
           </h1>
-          <p>
-            I am interested in freelance opportunities - especially ambitious or
-            large projects. However, if you have other request or question,
-            don't hesitate to contact me using below form either.
-          </p>
-          <div className="contact-form">
-            <form ref={form} onSubmit={sendEmail}>
+            <form ref={form} onSubmit={sendEmail} className='p-5'>
                 <div className="form-group">
-                    <label htmlFor="formGroupExampleInput">Your Name</label>
+                    <label htmlFor="formGroupExampleInput">Your Name :</label>
                     <input type="text" className="form-control" id="formGroupExampleInput" placeholder="John Doe" name="name"></input>
                 </div>
 
                 <div className="form-group">
-                    <label htmlFor="exampleFormControlInput1">Email address</label>
-                    <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="name@example.com" name="email" ></input>
+                    <label htmlFor="email">Email address :</label>
+                    <input type="email" className="form-control" id="email" placeholder="name@example.com" name="email" ></input>
                 </div>
                 <div className="form-group">
-                    <label htmlFor="exampleFormControlTextarea1">Example textarea</label>
-                    <textarea className="form-control" id="exampleFormControlTextarea1" rows="3" name="message"></textarea>
+                    <label htmlFor="message">Message :</label>
+                    <textarea className="form-control p-5" id="message" rows="3" name="message"></textarea>
                 </div>
-                <button type="submit" className="btn btn-primary">Submit</button>
+                <button type="submit" className="mt-5">Submit</button>
             </form>
           </div>
-        </div>
+          <div className='imageDiv col-sm-12 col-md-5'>
+            <img src={spaceMan} alt='floating guy in space'/>
+
+          </div>
       </div>
+      
    
     </>
   )
