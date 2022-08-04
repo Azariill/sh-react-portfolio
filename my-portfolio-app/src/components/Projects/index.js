@@ -1,6 +1,6 @@
 import './index.scss';
 import projectArr from './projects.json';
-
+import Footer from '../Footer';
 
 
 const Projects = () =>{
@@ -11,7 +11,7 @@ const Projects = () =>{
 
     return(
        <>
-        <section className='container-fluid d-flex  flex-wrap justify-content-center ' id='project-section'>
+        <section className=' d-flex  flex-wrap justify-content-center ' id='project-section'>
        
            {
             projectArr.map(({name,repolink,imgName})=>(
@@ -24,13 +24,17 @@ const Projects = () =>{
                         
                         
                     </a>
+                    
                 </div>
+                
 
             ))
                
             }
-           
+           <Footer></Footer>
         </section>
+        
+        
        </>
 
         

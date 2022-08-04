@@ -6,6 +6,9 @@
 }
 .resume-section{
     background: radial-gradient(ellipse at top left , #7a711df3 -100%, #000000 60%);
+    position: relative;
+    min-height: 100vh;
+    overflow: auto;
 }
 
 

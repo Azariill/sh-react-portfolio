@@ -6,8 +6,8 @@ import { useEffect } from 'react';
 const NavBar = ({currentNavItem, setCurrentNavItem,navSelected,setNavSelected}) =>{
 
     useEffect(() =>{
-        document.title = currentNavItem;
-    })
+        document.title = navSelected;
+    },[navSelected])
 
     return(
         <nav className="navbar navbar-expand-lg">

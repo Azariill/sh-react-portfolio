@@ -6,6 +6,7 @@ import './index.scss'
 import spaceMan from '../../assets/images/space.png';
 import Loader from 'react-loaders'
 import {validateEmail} from '../../utils/helpers';
+import Footer from '../Footer';
 
 const Contact = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -112,8 +113,9 @@ if(name && email && message){
             <img className="floatingImg" src={spaceMan} alt='floating guy in space'/>
 
           </div>
+          
       </div>
-      
+      <Footer/>
       <Loader type="pacman" />
     </>
   )

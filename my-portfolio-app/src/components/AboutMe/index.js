@@ -1,5 +1,6 @@
 import './index.scss';
 import photoOfSelf from '../../assets/images/IMG_2827.JPG'
+import Footer from '../Footer'
 
 const AboutMe = () =>{
 
@@ -17,8 +18,9 @@ const AboutMe = () =>{
                 <div className='personal-photo-div col-sm-12 col-md-4'>
                     <img className='personal-photo' src={photoOfSelf} alt='myself and my husky'/>
                 </div>
-
+                <Footer/>
             </section>
+            
             
         </>
     )

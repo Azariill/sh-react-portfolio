@@ -3,11 +3,13 @@ import './index.scss';
 import NavBar from '../NavBar'
 import { Outlet } from 'react-router-dom';
 
+
 const Layout = () =>{
     const [currentNavItem, setCurrentNavItem] = useState('Home');
     const [navSelected, setNavSelected] =useState('About');
 
     return (
+        <>
         <main className="background">
             <NavBar 
             currentNavItem={currentNavItem} 
@@ -15,13 +17,15 @@ const Layout = () =>{
             navSelected={navSelected}
             setNavSelected={setNavSelected}
             />
+          
          
            
                 <Outlet/>
-             
           
+              
             
         </main>
+        </>
     );
 }
 

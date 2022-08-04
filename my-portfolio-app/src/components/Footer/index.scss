@@ -1,0 +1,27 @@
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 4rem; 
+    border-top: 1px solid rgb(75, 73, 73); 
+    box-shadow: inset 1px 1px 1px grey;          /* Footer height */
+  }
+
+
+.footer-list{
+
+
+
+
+
+    li{
+        display: inline;
+        font-size: 40px;
+        
+    }
+}
+
+#createdBy{
+    font-size: 28px;
+    text-align: end;
+}

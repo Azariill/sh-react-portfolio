@@ -1,4 +1,5 @@
 import './index.scss';
+import Footer from '../Footer';
 import myResume from '../../assets/documents/resume.pdf';
 import { Document, pdfjs, Page } from "react-pdf";
 import {Link} from 'react-router-dom';
@@ -15,7 +16,7 @@ const Resume = () =>{
           
             <Document file={myResume}>
                 <Page pageNumber={1} />
-                
+               
             </Document>
             <Link
                 to="route"
@@ -29,8 +30,8 @@ const Resume = () =>{
             
 
            
-     
-    
+            <Footer/>
+            
         </section>
         
         </>
