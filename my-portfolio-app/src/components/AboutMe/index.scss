@@ -4,8 +4,24 @@
     background-color: black !important;
     width: 100%;
     height: 100%;
-    border-radius: 50%;
+    
+   
+
 }
 .personal-photo-div{
     z-index: 1;
+    .personal-photo{
+        border-radius: 50%;
+        box-shadow: 5px 1px 10px white;
+    }
+}
+
+#about-me-p{
+    color: white;
+    font-size: 27px;
+    font-family: 'san-serif';
+    text-indent: 15%;
+}
+#about-me-h1{
+    border-bottom: 1px solid white;
 }
