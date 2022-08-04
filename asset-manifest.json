@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/sh-react-portfolio/static/css/main.5c5b7b03.css",
-    "main.js": "/sh-react-portfolio/static/js/main.746e60c5.js",
+    "main.css": "/sh-react-portfolio/static/css/main.b91314f4.css",
+    "main.js": "/sh-react-portfolio/static/js/main.d2c65543.js",
     "static/js/787.3c86a6c9.chunk.js": "/sh-react-portfolio/static/js/787.3c86a6c9.chunk.js",
     "static/media/food-planner.jpg": "/sh-react-portfolio/static/media/food-planner.cd2b3f5777e42eddd4a1.jpg",
     "static/media/weather-app.jpg": "/sh-react-portfolio/static/media/weather-app.d9842f94779068dd7edd.jpg",
@@ -18,12 +18,12 @@
     "static/media/LaBelleAurore.woff2": "/sh-react-portfolio/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
     "static/media/CoolveticaRg-Regular.woff2": "/sh-react-portfolio/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/sh-react-portfolio/index.html",
-    "main.5c5b7b03.css.map": "/sh-react-portfolio/static/css/main.5c5b7b03.css.map",
-    "main.746e60c5.js.map": "/sh-react-portfolio/static/js/main.746e60c5.js.map",
+    "main.b91314f4.css.map": "/sh-react-portfolio/static/css/main.b91314f4.css.map",
+    "main.d2c65543.js.map": "/sh-react-portfolio/static/js/main.d2c65543.js.map",
     "787.3c86a6c9.chunk.js.map": "/sh-react-portfolio/static/js/787.3c86a6c9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5c5b7b03.css",
-    "static/js/main.746e60c5.js"
+    "static/css/main.b91314f4.css",
+    "static/js/main.d2c65543.js"
   ]
 }
