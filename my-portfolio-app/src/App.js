@@ -7,9 +7,14 @@ import Layout from './components/Layout';
 import Contact from './components/ContactForm';
 import Projects from './components/Projects';
 import AboutMe from './components/AboutMe';
+import Resume from './components/Resume';
 
 
 function App() {
+
+  
+  
+
   return (
             <>
               <Routes>
@@ -18,6 +23,7 @@ function App() {
                   <Route path='/contact' element={<Contact/>}/>
                   <Route path='/about' element={<AboutMe/>}/>
                   <Route path='/projects' element={<Projects/>}/>
+                  <Route path='/resume' element={<Resume/>}/>
                   <Route path="*" element={<NoMatch />} />
                 </Route>
               </Routes>

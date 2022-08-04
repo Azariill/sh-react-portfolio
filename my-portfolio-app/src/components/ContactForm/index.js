@@ -4,11 +4,15 @@ import emailjs from '@emailjs/browser'
 import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
 import spaceMan from '../../assets/images/space.png';
-
+import Loader from 'react-loaders'
+import {validateEmail} from '../../utils/helpers';
 
 const Contact = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
   const form = useRef()
+
+  const [formState, setFormState] = useState({name:'', email:'', message:''});
+  const [errorMessage, setErrorMessage] = useState('');
   
 
 useEffect(() => {
@@ -16,6 +20,32 @@ useEffect(() => {
       setLetterClass('text-animate-hover')
     }, 3000)
   }, [])
+  
+  function handleChange(e){
+    if (e.target.name === 'email') {
+        const isValid = validateEmail(e.target.value);
+        console.log(isValid);
+        // isValid conditional statement
+            if (!isValid) {
+                setErrorMessage('Your email is invalid.');
+            } else {
+                setErrorMessage('');
+            }
+        }
+    else{
+        if(!e.target.value.length){
+            setErrorMessage(`${e.target.name} is required.`)
+        }
+        else{
+            setErrorMessage('');
+        }
+    }
+    if(!errorMessage){
+        setFormState({...formState,[e.target.name]: e.target.value})
+    }
+}
+
+
   
   const sendEmail = (e) => {
     e.preventDefault()
@@ -59,27 +89,32 @@ if(name && email && message){
             <form ref={form} onSubmit={sendEmail} className='p-5'>
                 <div className="form-group">
                     <label htmlFor="formGroupExampleInput">Your Name :</label>
-                    <input type="text" className="form-control" id="formGroupExampleInput" placeholder="John Doe" name="name"></input>
+                    <input type="text" className="form-control" id="formGroupExampleInput" placeholder="John Doe" name="name" onBlur={handleChange}></input>
                 </div>
 
                 <div className="form-group">
                     <label htmlFor="email">Email address :</label>
-                    <input type="email" className="form-control" id="email" placeholder="name@example.com" name="email" ></input>
+                    <input type="email" className="form-control" id="email" placeholder="name@example.com" name="email" onBlur={handleChange}></input>
                 </div>
                 <div className="form-group">
                     <label htmlFor="message">Message :</label>
-                    <textarea className="form-control p-5" id="message" rows="3" name="message"></textarea>
+                    <textarea className="form-control p-5" id="message" rows="3" name="message"onBlur={handleChange}></textarea>
                 </div>
+                {errorMessage && (
+                    <div>
+                        <p className="error-text">{errorMessage}</p>
+                    </div>
+                )}
                 <button type="submit" className="mt-5">Submit</button>
             </form>
           </div>
           <div className='img-div col-sm-12 col-md-6'>
-            <img src={spaceMan} alt='floating guy in space'/>
+            <img className="floatingImg" src={spaceMan} alt='floating guy in space'/>
 
           </div>
       </div>
       
-   
+      <Loader type="pacman" />
     </>
   )
 }

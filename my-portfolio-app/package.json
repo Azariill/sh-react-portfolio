@@ -21,6 +21,8 @@
     "loaders.css": "^0.1.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-loaders": "^3.0.1",
+    "react-pdf": "^5.7.2",
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
     "sass": "^1.54.0",

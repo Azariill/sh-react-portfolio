@@ -19,6 +19,7 @@ const AboutMe = () =>{
                 </div>
 
             </section>
+            
         </>
     )
 }

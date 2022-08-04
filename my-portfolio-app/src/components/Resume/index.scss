@@ -1,0 +1,23 @@
+.resume-img-holder{
+    border: 2px solid white;
+    height: 400px;
+    color:white;
+   
+}
+.resume-section{
+    background: radial-gradient(ellipse at top left , #7a711df3 -100%, #000000 60%);
+}
+
+
+.download-div{
+    border: 1px  solid white;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5%;
+    &:hover{
+        background-color: yellow;
+        color: black;
+    }
+}

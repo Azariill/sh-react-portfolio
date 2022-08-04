@@ -1,0 +1,45 @@
+[
+    {
+        "name":"Meet Friends" ,
+        "repolink":"https://github.com/SD-github21/meet-friends" ,
+        "imgName": "meet-friends.png"
+
+    },
+    {
+        "name":"My Food Planner" ,
+        "repolink":"https://github.com/TyeStanley/my-food-planner" ,
+        "imgName": "food-planner.jpg"
+
+    },
+    {
+        "name":"NodeJS ReadMe Generator" ,
+        "repolink":"https://github.com/Azariill/professional-readme-generator" ,
+        "imgName": "readme-gen.jpg"
+
+    },
+    {
+        "name":"Ecommerce Backend Sequelize and Express.js" ,
+        "repolink":"https://github.com/Azariill/ecommerce_backEndProject" ,
+        "imgName": "ecommerce-backend.png"
+
+    },
+    {
+        "name":"CMS MySQL DataBase Management App" ,
+        "repolink":"https://github.com/Azariill/consoleCMS" ,
+        "imgName": "cms-backend.png"
+
+    },
+    {
+        "name":"Weather App" ,
+        "repolink":"https://github.com/Azariill/weatherTracker" ,
+        "imgName": "weather-app.jpg"
+
+    },
+    {
+        "name":"Workday Schedule App" ,
+        "repolink":"https://github.com/Azariill/work-day-scheduler" ,
+        "imgName": "workday-sche.jpg"
+
+    }
+
+]
