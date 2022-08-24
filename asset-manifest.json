@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/sh-react-portfolio/static/css/main.e593dcb4.css",
+    "main.css": "/sh-react-portfolio/static/css/main.aeb5dc8d.css",
     "main.js": "/sh-react-portfolio/static/js/main.213f47e5.js",
     "static/js/787.3c86a6c9.chunk.js": "/sh-react-portfolio/static/js/787.3c86a6c9.chunk.js",
     "static/media/food-planner.jpg": "/sh-react-portfolio/static/media/food-planner.cd2b3f5777e42eddd4a1.jpg",
@@ -19,12 +19,12 @@
     "static/media/LaBelleAurore.woff2": "/sh-react-portfolio/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
     "static/media/CoolveticaRg-Regular.woff2": "/sh-react-portfolio/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/sh-react-portfolio/index.html",
-    "main.e593dcb4.css.map": "/sh-react-portfolio/static/css/main.e593dcb4.css.map",
+    "main.aeb5dc8d.css.map": "/sh-react-portfolio/static/css/main.aeb5dc8d.css.map",
     "main.213f47e5.js.map": "/sh-react-portfolio/static/js/main.213f47e5.js.map",
     "787.3c86a6c9.chunk.js.map": "/sh-react-portfolio/static/js/787.3c86a6c9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e593dcb4.css",
+    "static/css/main.aeb5dc8d.css",
     "static/js/main.213f47e5.js"
   ]
 }
