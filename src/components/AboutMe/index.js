@@ -20,7 +20,7 @@ const AboutMe = () =>{
                 </div>
                 <Footer/>
             </section>
-            
+            2
             
         </>
     )

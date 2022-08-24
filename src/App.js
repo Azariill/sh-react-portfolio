@@ -24,7 +24,7 @@ function App() {
                   <Route path='/about' element={<AboutMe/>}/>
                   <Route path='/projects' element={<Projects/>}/>
                   <Route path='/resume' element={<Resume/>}/>
-                  <Route path="*" element={<NoMatch />} />
+                  <Route path="*" element={<Home/>} />
                 </Route>
               </Routes>
                 {/* divs for the animated stars/particles */}

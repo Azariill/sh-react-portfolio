@@ -3,7 +3,7 @@ import {NavLink} from 'react-router-dom';
 import { useEffect } from 'react';
 
 
-const NavBar = ({currentNavItem, setCurrentNavItem,navSelected,setNavSelected}) =>{
+const NavBar = ({currentNavItem, setCurrentNavItem, navSelected,setNavSelected}) =>{
 
     useEffect(() =>{
         document.title = navSelected;
