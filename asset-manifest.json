@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/sh-react-portfolio/static/css/main.b91314f4.css",
-    "main.js": "/sh-react-portfolio/static/js/main.d2c65543.js",
+    "main.css": "/sh-react-portfolio/static/css/main.1f3e3233.css",
+    "main.js": "/sh-react-portfolio/static/js/main.213f47e5.js",
     "static/js/787.3c86a6c9.chunk.js": "/sh-react-portfolio/static/js/787.3c86a6c9.chunk.js",
     "static/media/food-planner.jpg": "/sh-react-portfolio/static/media/food-planner.cd2b3f5777e42eddd4a1.jpg",
+    "static/media/nibbler.png": "/sh-react-portfolio/static/media/nibbler.98ae9f5f92bd39b7c2e5.png",
     "static/media/weather-app.jpg": "/sh-react-portfolio/static/media/weather-app.d9842f94779068dd7edd.jpg",
     "static/media/meet-friends.png": "/sh-react-portfolio/static/media/meet-friends.a4e7eeebb526770d209a.png",
     "static/media/workday-sche.jpg": "/sh-react-portfolio/static/media/workday-sche.ff61dbfcd45cb5cc69da.jpg",
@@ -18,12 +19,12 @@
     "static/media/LaBelleAurore.woff2": "/sh-react-portfolio/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
     "static/media/CoolveticaRg-Regular.woff2": "/sh-react-portfolio/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/sh-react-portfolio/index.html",
-    "main.b91314f4.css.map": "/sh-react-portfolio/static/css/main.b91314f4.css.map",
-    "main.d2c65543.js.map": "/sh-react-portfolio/static/js/main.d2c65543.js.map",
+    "main.1f3e3233.css.map": "/sh-react-portfolio/static/css/main.1f3e3233.css.map",
+    "main.213f47e5.js.map": "/sh-react-portfolio/static/js/main.213f47e5.js.map",
     "787.3c86a6c9.chunk.js.map": "/sh-react-portfolio/static/js/787.3c86a6c9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b91314f4.css",
-    "static/js/main.d2c65543.js"
+    "static/css/main.1f3e3233.css",
+    "static/js/main.213f47e5.js"
   ]
 }
